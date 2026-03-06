@@ -1,0 +1,1313 @@
+# TEAM BOT - ULTIMATE GUIDE
+================================================================================
+
+# PropprTeamBot - The Ultimate Guide
+
+> **Complete Documentation for @PropprTeamBot**  
+> **Version:** 2.0  
+> **Last Updated:** March 4, 2026  
+> **Relationship:** Powers the Player Bot | Team Props Specialist
+
+---
+
+## Table of Contents
+
+1. [Executive Summary](#1-executive-summary)
+2. [Use Cases](#2-use-cases-10-detailed-scenarios)
+3. [Pain Points Addressed](#3-pain-points-the-bot-addresses)
+4. [All Commands Reference](#4-all-commands-reference-comprehensive)
+5. [FAQs](#5-faqs-25-questions)
+6. [How To's](#6-how-tos-15-step-by-step-guides)
+7. [Do's and Don'ts](#7-dos-and-donts)
+8. [Comparison to Player Bot](#8-comparison-to-player-bot--alternatives)
+9. [Pros of the Team Bot](#9-pros-of-the-team-bot-15-detailed)
+10. [Niche Angles](#10-niche-angles-15-specialized-strategies)
+11. [Strategies](#11-strategies-10-complete-strategies)
+12. [Explainers](#12-explainers)
+13. [Feedback & Success Stories](#13-feedback--success-stories)
+14. [User Findings](#14-user-findings)
+
+---
+
+## 1. Executive Summary
+
+### What is PropprTeamBot?
+
+**@PropprTeamBot** is a specialized Telegram bot that identifies value betting opportunities in **team prop betting markets**. While the Player Bot focuses on individual player performance, the Team Bot analyzes collective team statistics to find edges in match and team totals.
+
+### Key Value Proposition
+
+> **"The team bot powers the player bot"** - Jay (Prof. X), Creator
+
+The Team Bot is the **foundation** of the Proppr ecosystem. Without team projections, there are no player projections. The same statistical models that predict team tackles, shots, and corners are used to derive individual player expectations.
+
+### What Makes It Unique?
+
+| Feature | Description |
+|---------|-------------|
+| **Freeze Alerts** | Unique Sky Acca Freeze opportunities (lineup-based betting) |
+| **XI Alerts** | Starting lineup confirmation notifications |
+| **Live Commands** | Real-time in-play statistics and projections |
+| **Team Most Stats** | Comparative team statistics across leagues |
+| **Predicted Lines** | Comprehensive team stat projections for every match |
+
+### Coverage
+
+- **100+ leagues** worldwide
+- **15+ team markets** including advanced metrics
+- **First half / Second half / Full match** analysis
+- **Pre-match and live** data
+
+---
+
+## 2. Use Cases (10+ Detailed Scenarios)
+
+### Use Case 1: Team Totals Betting
+**Scenario:** You want to bet on Manchester City to score over 2.5 goals
+
+**How to use:**
+```
+/fixture Manchester City vs Arsenal
+→ Review Team Total Goals projections
+→ Check model odds vs bookmaker odds
+→ Identify value on Over 2.5 Goals @ 2.10 (model: 1.85 = 13.5% value)
+```
+
+**Pro Tip:** Team totals often have better value than match totals because bookmakers focus more on the latter.
+
+---
+
+### Use Case 2: Match Total Analysis
+**Scenario:** Finding value in Premier League corner markets
+
+**How to use:**
+```
+/stats → Select "Total Corners"
+→ Browse top 20 corner projections
+→ Identify matches with high corner expectancy
+→ Cross-reference with /fixture for specific lines
+```
+
+---
+
+### Use Case 3: First Half/Second Half Betting
+**Scenario:** Betting on first half cards in a heated derby
+
+**How to use:**
+```
+/fixture Roma vs Lazio
+→ Look for 1st Half Team Cards markets
+→ Check historical first half card averages
+→ Model factors in referee tendencies
+```
+
+---
+
+### Use Case 4: Freeze (Lineup-Based) Betting
+**Scenario:** Sky Acca Freeze opportunities - getting best odds before lineups
+
+**How to use:**
+```
+(feature removed)
+→ View A+ rated freeze opportunities
+→ Check Score First Chance vs Lead Anytime Chance
+→ Identify value on teams likely to score first AND lead
+→ Place bets before lineups confirm (prices freeze)
+```
+
+**Key Metric:** Score First Chance + Lead Anytime projections
+
+---
+
+### Use Case 5: Live In-Play Assistance
+**Scenario:** Monitoring your over bets during matches
+
+**How to use:**
+```
+(feature removed)
+→ Select in-play fixture
+→ View current stats vs projections
+→ Get early win notifications when thresholds exceeded
+→ See real-time grade updates
+```
+
+---
+
+### Use Case 6: Team Most Statistics
+**Scenario:** Finding which teams lead specific metrics
+
+**How to use:**
+```
+/teammost or Team Most in /stats
+→ Select stat (Corners, Shots, Cards, etc.)
+→ View teams ranked by projected values
+→ Identify "most likely" winners for Team Most markets
+```
+
+---
+
+### Use Case 7: Weather-Dependent Markets
+**Scenario:** Heavy rain forecast affecting pass completion
+
+**How to use:**
+```
+/weather
+→ Check weather alerts for fixtures
+→ Rain = more tackles, fouls, cards
+→ Wind = fewer shots on target, more throw-ins
+→ Adjust betting accordingly
+```
+
+---
+
+### Use Case 8: Card Market Specialization
+**Scenario:** Betting on aggressive teams' card totals
+
+**How to use:**
+```
+/team Leeds United
+→ Check Team Cards projections
+→ Review per-game card history
+→ Model factors in opponent's foul-drawing ability
+→ Find value on card overs for aggressive pressing teams
+```
+
+---
+
+### Use Case 9: Corner Handicap Analysis
+**Scenario:** Finding value in corner spreads
+
+**How to use:**
+```
+/fixture Bayern Munich vs Wolfsburg
+→ Check Corners Spread markets
+→ Home teams with high possession often win corner handicaps
+→ Model accounts for playing style and opponent defense
+```
+
+---
+
+### Use Case 10: Multi-Market Bet Builders
+**Scenario:** Building same-game parlays with team props
+
+**How to use:**
+```
+/fixture Liverpool vs Chelsea
+→ Identify 3-4 value plays across different markets
+→ Example: Liverpool Over 5.5 Corners + Chelsea Over 2.5 Cards + Match Over 10.5 Shots
+→ All selections based on model projections
+```
+
+---
+
+### Use Case 11: League-Specific Patterns
+**Scenario:** Identifying league-wide tendencies
+
+**How to use:**
+```
+/topleague Premier League
+→ View top teams by stat category
+→ Compare league averages
+→ Spot leagues with high card counts (Serie A) or corners (Premier League)
+```
+
+---
+
+### Use Case 12: Saves Market for Goalkeepers
+**Scenario:** Finding value in goalkeeper saves
+
+**How to use:**
+```
+/fixture Brighton vs Man City
+→ Look for Goalkeeper Saves markets
+→ Underdog GKs typically face more shots
+→ Model predicts save opportunities based on opponent shot volume
+```
+
+---
+
+## 3. Pain Points the Bot Addresses
+
+### 3.1 Team Research Time
+**Before:** Hours manually checking team stats across multiple sites
+**After:** `/fixture` gives complete projections in 30 seconds
+
+> "It literally took me 3/4 mins to do one single fixture so, do the maths" - Beta User
+
+### 3.2 Lineup Uncertainty
+**Problem:** Not knowing if key players will start affects team totals
+**Solution:** XI alerts notify you the moment lineups are confirmed (75 mins before kickoff)
+
+### 3.3 Finding Team Value Plays
+**Problem:** Bookmakers price team markets efficiently
+**Solution:** Model identifies edges in less-trafficked markets like throw-ins, fouls, and offsides
+
+### 3.4 Weather Impact Ignorance
+**Problem:** Not factoring conditions into team performance
+**Solution:** `/weather` command shows matches with significant weather factors
+
+### 3.5 Market Timing
+**Problem:** Best odds disappear quickly
+**Solution:** Freeze alerts let you lock in prices before lineup confirmation
+
+### 3.6 Live Bet Monitoring
+**Problem:** Missing early wins on over bets
+**Solution:** Live grading automatically settles over bets when thresholds are exceeded
+
+### 3.7 Statistical Overload
+**Problem:** Too much data, not enough insight
+**Solution:** Predicted lines consolidate 50+ metrics into actionable projections
+
+### 3.8 League-Specific Knowledge
+**Problem:** Not knowing tendencies of obscure leagues
+**Solution:** `/topleague` shows league leaders in every stat category
+
+---
+
+## 4. All Commands Reference (Comprehensive)
+
+### Discovery Commands
+
+#### `/start`
+**What it does:** Welcome message, bot overview, tutorial access
+**Syntax:** `/start`
+**Usage:** Essential first command for new users
+**Pro Tip:** Complete the interactive tutorial for best results
+
+---
+
+#### `/today`
+**What it does:** Browse all today's fixtures with quick projections
+**Syntax:** `/today`
+**Output:** Paginated list of matches by country/league
+**Pro Tip:** Use to spot rotation patterns before betting
+
+---
+
+#### `/tomorrow`
+**What it does:** Browse tomorrow's fixtures
+**Syntax:** `/tomorrow`
+**Output:** Same format as `/today`
+**Pro Tip:** Early research for freeze opportunities
+
+---
+
+#### `/team [team name]`
+**What it does:** Deep-dive into specific team's upcoming fixtures
+**Syntax:** `/team Manchester United` or `/team Bayern`
+**Output:** 
+- Upcoming fixtures
+- Top projections by stat
+- Historical averages
+**Pro Tip:** Use for teams you specialize in following
+
+---
+
+#### `/league [league name]`
+**What it does:** Browse fixtures by specific league
+**Syntax:** `/league Premier League` or `/league La Liga`
+**Output:** League fixtures with top value plays
+**Pro Tip:** Great for league specialists
+
+---
+
+#### `/stats`
+**What it does:** Top projections globally by stat category
+**Syntax:** `/stats`
+**Interactive:** Choose from:
+- Total Goals, Team Total Goals
+- Total Corners, Team Corners, Corners Spread
+- Total Cards, Team Cards, Bookings Spread
+- Total Shots, Team Shots, Shots On Target
+- Fouls, Tackles, Offsides
+- Throw-ins, Free Kicks, Goal Kicks
+- Saves (Goalkeeper)
+- Team Most statistics
+
+**Pro Tip:** Run daily to identify trending markets
+
+---
+
+### Analysis Commands
+
+#### `/fixture [team vs team]`
+**What it does:** Complete value analysis for a specific match
+**Syntax:** `/fixture Liverpool vs Chelsea` or `/fixture Liverpool`
+**Output:** All value alerts matching your settings for that fixture
+**Club Legend Tier Only**
+**Pro Tip:** Most popular command - gives comprehensive analysis in under 60 seconds
+
+---
+
+#### `/value [timeframe]`
+**What it does:** Best value bets across all markets
+**Syntax:** `/value` → Choose Today/Tomorrow/7 Days
+**Output:** Top 20+ value plays sorted by value %
+**Club Legend Tier Only**
+**Pro Tip:** Best for quick shopping of premium opportunities
+
+---
+
+#### `(feature removed)`
+**What it does:** Access live in-play projections and statistics
+**Syntax:** `(feature removed)`
+**Features:**
+- View currently live fixtures
+- Real-time stat tracking
+- Early win notifications for over bets
+- Live bet grading
+**Unique to Team Bot**
+**Pro Tip:** Monitor your over bets for early settlement opportunities
+
+---
+
+#### `(feature removed)`
+**What it does:** View Sky Acca Freeze opportunities
+**Syntax:** `(feature removed)`
+**Output:** Rated opportunities (A+ to C-) with:
+- Score First Chance
+- Lead Anytime Chance
+- Value calculations
+**Requires:** Freeze alerts enabled in settings
+**Pro Tip:** A+ rated freezes are rare but highly valuable
+
+---
+
+#### `/weather`
+**What it does:** Check weather conditions affecting fixtures
+**Syntax:** `/weather`
+**Output:** Matches with significant weather factors
+**Pro Tip:** Rain increases tackles/fouls/cards; wind affects shots
+
+---
+
+### Top Statistics Commands
+
+#### `/top`
+**What it does:** Top teams globally by specific statistics
+**Syntax:** `/top`
+**Output:** League-wide leaders in chosen stat category
+**Pro Tip:** Find which teams consistently lead metrics
+
+---
+
+#### `/topteam [team]`
+**What it does:** Top stats for a specific team
+**Syntax:** `/topteam Barcelona`
+**Output:** Team's ranking across all statistical categories
+**Pro Tip:** Identify a team's statistical strengths
+
+---
+
+#### `/topleague [league]`
+**What it does:** Top teams within a specific league
+**Syntax:** `/topleague Bundesliga`
+**Output:** League table by stat category
+**Pro Tip:** Compare teams within their competitive context
+
+---
+
+#### `/teammost`
+**What it does:** Teams most likely to lead specific statistics
+**Syntax:** `/teammost` or via `/stats`
+**Markets:** Most Corners, Most Cards, Most Shots, etc.
+**Pro Tip:** Useful for "Team Most" bookmaker markets
+
+---
+
+### Settings Commands
+
+#### `/settings`
+**What it does:** Customize alert preferences and thresholds
+**Syntax:** `/settings`
+**Options:**
+- Market toggles (enable/disable specific markets)
+- Min/Max odds filters
+- Value % thresholds
+- Bookmaker preferences
+- Freeze settings
+- XI alert settings
+
+---
+
+#### `/markets`
+**What it does:** Quick toggle markets on/off
+**Syntax:** `/markets`
+**Output:** Grid of all available markets with on/off status
+
+---
+
+#### `/unmute`
+**What it does:** Manage muted fixtures and leagues
+**Syntax:** `/unmute`
+**Use:** Restore alerts for previously muted competitions
+
+---
+
+### Utility Commands
+
+#### `/status`
+**What it does:** Check bot status and your request queue
+**Syntax:** `/status`
+**Output:** Pending alerts, last update time, tier info
+
+---
+
+#### `/track`
+**What it does:** Track your bet history
+**Syntax:** `/track`
+**Features:**
+- View pending bets
+- See settled results
+- Profit/loss analysis
+- Integration with Google Sheets
+
+---
+
+#### `/language`
+**What it does:** Change bot interface language
+**Syntax:** `/language`
+**Available:** Multiple languages supported
+
+---
+
+#### `/tutorial`
+**What it does:** Interactive guided tour of bot features
+**Syntax:** `/tutorial`
+**Recommendation:** Essential for new users
+
+---
+
+#### `/pricing` or `/plans`
+**What it does:** View subscription tiers and features
+**Syntax:** `/pricing`
+
+---
+
+## 5. FAQs (25+ Questions)
+
+### General Questions
+
+**Q1: Is the Team Bot different from the Player Bot?**
+A: Yes. Team Bot analyzes collective team statistics; Player Bot focuses on individual player props. Team Bot powers the Player Bot's projections.
+
+**Q2: How accurate are team projections?**
+A: About 65-75% for major markets. The model factors in opponent strength, historical performance, playing style, and more.
+
+**Q3: What's the relationship between Team Bot and Player Bot?**
+A: "With no team bot there's no player." Team projections form the foundation for individual player expectations.
+
+**Q4: What sports does the Team Bot cover?**
+A: Football/soccer only, with 100+ leagues worldwide.
+
+**Q5: Can I use both bots together?**
+A: Absolutely. Use Team Bot for match-level analysis, Player Bot for individual selections.
+
+---
+
+### Technical Questions
+
+**Q6: Why am I not getting alerts?**
+A: Check:
+1. Have you sent `/start` to @PropprTeamBot?
+2. Are your settings too restrictive?
+3. Is the market enabled in `/markets`?
+4. Is your subscription tier active?
+
+**Q7: What are predicted lines?**
+A: Comprehensive team stat projections including goals, corners, cards, shots, fouls, tackles, offsides, throw-ins, free kicks, and more.
+
+**Q8: How often are projections updated?**
+A: Continuously as new data becomes available. Major updates typically hourly.
+
+**Q9: What's the difference between Last 5 and Last 10?**
+A: Changes the sample size for historical calculations. Last 10 more stable; Last 5 more recent-form focused.
+
+**Q10: Does the bot work in-play?**
+A: The `(feature removed)` command provides in-play data, but pre-match alerts are the core feature.
+
+---
+
+### Betting Questions
+
+**Q11: How is value calculated?**
+A: `Value % = ((Bookmaker Odds / Model Odds) - 1) × 100`
+
+**Q12: What does the recommended stake mean?**
+A: Stakes factor in value + probability. Higher value + higher probability = higher stake recommendation.
+
+**Q13: Can I bet on unders?**
+A: Yes, under alerts are supported. Enable in settings.
+
+**Q14: What's a Freeze Alert?**
+A: Sky Acca Freeze opportunities where you can lock in odds before lineups confirm. Based on Score First and Lead Anytime probabilities.
+
+**Q15: What are XI Alerts?**
+A: Notifications when starting lineups are confirmed (typically 75 minutes before kickoff).
+
+**Q16: What's Team Most?**
+A: Predictions for which team will have the most corners, cards, shots, etc. in a match.
+
+---
+
+### Subscription Questions
+
+**Q17: How much does Team Bot cost?**
+A: Three tiers:
+- **Reserve:** FREE (limited features)
+- **Regular Starter:** £9.99/month
+- **Club Legend:** £15.99/month (/fixture, /value, exclusive channel)
+
+**Q18: What's included in each tier?**
+A: See `/pricing` for full comparison. Key differences:
+- Reserve: Basic alerts only
+- Regular Starter: Full settings customization
+- Club Legend: On-demand alerts + exclusive channel
+
+**Q19: Is there a free trial?**
+A: Reserve tier is free with limitations. Full features require subscription.
+
+**Q20: How do I upgrade?**
+A: Use `/pricing` → Follow upgrade links → Join tier-specific Telegram channel
+
+---
+
+### Feature-Specific Questions
+
+**Q21: What leagues are covered for Freeze Alerts?**
+A: Major leagues including Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Championship, and more (20+ leagues).
+
+**Q22: How do Live Commands work?**
+A: `(feature removed)` shows in-play fixtures with real-time stats. System monitors pending over bets and grades them early when thresholds are exceeded.
+
+**Q23: What's the difference between Team Totals and Match Totals?**
+A: Team Totals = one team's contribution (e.g., Liverpool corners). Match Totals = combined both teams.
+
+**Q24: Can I get alerts for specific teams only?**
+A: Use `/team` to focus on specific teams. Full muting by team coming in future updates.
+
+**Q25: How do I interpret the rating system for Freeze Alerts?**
+A: A+ = Exceptional (rare), A = Excellent, B+ = Good, B = Fair, C+ and below = Marginal
+
+---
+
+## 6. How To's (15+ Step-by-Step Guides)
+
+### Guide 1: Getting Started
+```
+Step 1: Message @PropprTeamBot /start
+Step 2: Complete the interactive tutorial (/tutorial)
+Step 3: Check your tier with /status
+Step 4: Enable desired markets in /markets
+Step 5: Configure settings in /settings
+Step 6: Run your first /stats command
+```
+
+### Guide 2: Researching a Specific Game
+```
+Step 1: /fixture [Team A] vs [Team B]
+Step 2: Review all projected lines
+Step 3: Identify 2-3 markets with highest value %
+Step 4: Check model odds vs bookmaker odds
+Step 5: Note the recommended stake
+Step 6: Place bet at bookmaker (or use provided link)
+```
+
+### Guide 3: Finding Corner Value
+```
+Step 1: /stats → Select "Total Corners"
+Step 2: Review top 20 corner projections
+Step 3: Note fixtures with high corner expectancy (>10.5)
+Step 4: Run /fixture on promising matches
+Step 5: Check Corners Spread markets for handicap value
+```
+
+### Guide 4: Using Freeze Alerts
+```
+Step 1: Enable Freeze Alerts in /settings
+Step 2: Set minimum rating threshold (recommend: B+)
+Step 3: Configure odds range (recommend: 1.5-10.0)
+Step 4: Select eligible leagues
+Step 5: Run (feature removed) to view opportunities
+Step 6: Focus on A and A+ rated opportunities
+```
+
+### Guide 5: Building Bet Builders
+```
+Step 1: /fixture on target match
+Step 2: Identify value across different markets
+Step 3: Select 3-4 uncorrelated plays
+Step 4: Example good combo:
+   - Team A Over X Corners (attacking team)
+   - Team B Over Y Cards (aggressive opponent)
+   - Match Over Z Goals (open game expected)
+Step 5: Check combined odds vs individual value
+```
+
+### Guide 6: Monitoring Live Bets
+```
+Step 1: Place pre-match over bets
+Step 2: Use (feature removed) during matches
+Step 3: Check "Grade Once" for early win notifications
+Step 4: System automatically settles over bets when thresholds hit
+Step 5: Review settled bets in /track
+```
+
+### Guide 7: First Half Betting
+```
+Step 1: /fixture on target match
+Step 2: Look for 1st Half prefixed markets
+Step 3: Check historical first half trends
+Step 4: Consider:
+   - Early kick-off times (more first half goals)
+   - Derby matches (early cautions)
+   - High-pressing teams (early corners)
+```
+
+### Guide 8: Finding Card Value
+```
+Step 1: /stats → "Total Cards" or "Team Cards"
+Step 2: Identify high-card teams (aggressive pressers)
+Step 3: Check opponent's foul-drawing ability
+Step 4: Run /fixture for specific lines
+Step 5: Factor in referee card averages
+```
+
+### Guide 9: Using Team Most
+```
+Step 1: /stats → "Team Most" option
+Step 2: Select stat category (e.g., "Most Corners")
+Step 3: Review which teams project to lead
+Step 4: Cross-reference with /fixture
+Step 5: Bet on "Team Most" markets at bookmakers
+```
+
+### Guide 10: League Specialization
+```
+Step 1: /topleague [your league]
+Step 2: Review all stat categories
+Step 3: Identify league tendencies:
+   - High corner leagues (Premier League)
+   - High card leagues (Serie A, La Liga)
+   - High shot leagues (Bundesliga)
+Step 4: Focus betting on league strengths
+```
+
+### Guide 11: Optimizing Settings
+```
+Step 1: /settings
+Step 2: Adjust odds range to your preference
+Step 3: Set minimum value % (recommend: 5%+ for beginners)
+Step 4: Enable only markets you understand
+Step 5: Set bookmaker preferences
+Step 6: Test with /value before committing
+```
+
+### Guide 12: Tracking Results
+```
+Step 1: Use /track to view pending bets
+Step 2: Enable Google Sheets sync for detailed analysis
+Step 3: Review settled bets weekly
+Step 4: Identify profitable markets
+Step 5: Adjust settings based on results
+```
+
+### Guide 13: Finding Longshots
+```
+Step 1: /stats with relaxed value filters
+Step 2: Look for high-odds opportunities (10+)
+Step 3: Check model odds - if <5.0, significant value exists
+Step 4: Very small stakes (0.1-0.25u)
+Step 5: High variance but potentially high reward
+```
+
+### Guide 14: Weather-Based Adjustments
+```
+Step 1: /weather for conditions
+Step 2: Rain forecast:
+   → Increase tackle/foul/card expectations
+   → Decrease passing/possession expectations
+Step 3: Wind forecast:
+   → Decrease shot accuracy
+   → Increase goal kick expectations
+Step 4: Adjust bet sizes accordingly
+```
+
+### Guide 15: Lineup Confirmation Strategy
+```
+Step 1: Enable XI Alerts in /settings
+Step 2: Place pre-lineup bets on freeze opportunities
+Step 3: Wait for XI alerts (75 mins before kickoff)
+Step 4: If key players benched:
+   → Consider additional value plays
+   → Adjust stake sizes
+Step 5: If unexpected starters:
+   → Research player tendencies
+   → May create new value opportunities
+```
+
+---
+
+## 7. Do's and Don'ts
+
+### ✅ DO's
+
+1. **DO use the tutorial**
+   > "I strongly recommend doing the tutorial as it guides you through how to set up the bot and the way it works"
+
+2. **DO consider the probability, not just value**
+   > "Great value but the model odds being 7.18 does still mean the model only gives him a 14% chance"
+
+3. **DO check multiple bookmakers**
+   - Bot links to Bet365, but better prices often exist elsewhere
+
+4. **DO use /fixture for deep dives**
+   > "/fixture is the most popular command it sends you alerts for all the value props for a single game in less than a minute"
+
+5. **DO factor in team rotation**
+   > "If you used the /today command you would of seen this... all the rotation prior to the game"
+
+6. **DO track your bets**
+   - Use `/track` or external spreadsheet for accountability
+
+7. **DO stake consistently**
+   > "Don't be scared to go high volume just make sure your stake effectively and consistently"
+
+
+9. **DO use Team Most for comparative analysis**
+   - Great for "which team will have more" markets
+
+10. **DO enable XI alerts for freeze betting**
+    - Lineup confirmation timing is crucial
+
+11. **DO cross-reference with weather**
+    - Conditions significantly affect team totals
+
+12. **DO use Live commands for over monitoring**
+    - Catch early wins before full-time
+
+13. **DO specialize in specific leagues**
+    - Better than spreading across unfamiliar competitions
+
+14. **DO review first half markets separately**
+    - Different dynamics than full match
+
+15. **DO take screenshots of alerts**
+    - Useful for tracking and dispute resolution
+
+---
+
+### ❌ DON'Ts
+
+1. **DON'T take every alert**
+   > "Taking every alert it sends isn't the way to go"
+
+2. **DON'T expect every bet to win**
+   > "Every alert isn't a guaranteed winner"
+
+3. **DON'T chase losses**
+   - The model is about long-term value, not short-term wins
+
+4. **DON'T ignore recommended stakes**
+   - They're calculated based on value + probability
+
+5. **DON'T bet on negative value**
+   > "Taking negative value plays is what the bookmakers want"
+
+6. **DON'T spam /fixture**
+   - It can lock the bot for other users (though less so than in beta)
+
+7. **DON'T rely solely on hit rates**
+   > "If it was just based on hit rates the model odds would be like 1.25"
+
+8. **DON'T ignore league context**
+   - Serie A cards ≠ Premier League cards
+
+9. **DON'T bet blindly on freeze alerts**
+   - Research the fixture context first
+
+10. **DON'T overlook team totals for value**
+    - Often better value than match totals
+
+11. **DON'T forget weather impacts**
+    - Heavy rain changes everything
+
+12. **DON'T chase live odds**
+    - Bot is pre-match focused
+
+13. **DON'T ignore the rating in freeze alerts**
+    - C+ opportunities are marginal at best
+
+14. **DON'T bet above your unit size**
+    - Even on A+ rated opportunities
+
+15. **DON'T mute entire leagues permanently**
+    - May miss valuable opportunities
+
+---
+
+## 8. Comparison to Player Bot & Alternatives
+
+### Team Bot vs Player Bot
+
+| Aspect | Team Bot | Player Bot |
+|--------|----------|------------|
+| **Focus** | Team totals, match totals | Individual player props |
+| **Markets** | 15+ team markets | 10+ player markets |
+| **Unique Features** | Freeze alerts, XI alerts, Live commands | Player matchups, Super Sub |
+| **Relationship** | **Powers the Player Bot** | Uses Team Bot projections |
+| **Quote** | "With no team bot there's no player" | - |
+| **Best For** | Match-level analysis | Individual selections |
+
+---
+
+### Team Bot vs Traditional Tipsters
+
+| Aspect | Team Bot | Traditional Tipsters |
+|--------|----------|---------------------|
+| **Basis** | Statistical model | Human opinion |
+| **Coverage** | 100+ leagues, all games | Limited to tipster's focus |
+| **Cost** | £9.99-15.99/month | Often £50-100+/month |
+| **Transparency** | Model odds shown | Usually no transparency |
+| **Markets** | All team props | Usually 1X2, goals only |
+
+---
+
+### Team Bot vs Other Tools
+
+**Key Differentiators:**
+
+1. **Freeze Alerts:** Unique to Proppr - no competitor offers this
+2. **XI Alerts:** Real-time lineup confirmation notifications
+3. **Live Commands:** In-play monitoring and early win detection
+4. **Predicted Lines:** Comprehensive 50+ metric projections
+5. **Team Most:** Comparative team statistics
+
+---
+
+## 9. Pros of the Team Bot (15+ Detailed)
+
+### 1. **Comprehensive Market Coverage**
+15+ team markets including advanced metrics like throw-ins, free kicks, and headed shots.
+
+### 2. **Freeze Alert System**
+Unique Sky Acca Freeze opportunities with A+ to C- rating system. Lock in prices before lineup confirmation.
+
+### 3. **XI Alert Notifications**
+Instant notification when lineups are confirmed (75 mins before kickoff), allowing strategy adjustments.
+
+### 4. **Live Command Integration**
+Real-time in-play statistics, early win detection for over bets, and automatic grading.
+
+### 5. **Predicted Lines Depth**
+Comprehensive projections for:
+- Goals, Corners, Cards
+- Shots (total, on target, outside box, headed)
+- Fouls, Tackles, Offsides
+- Throw-ins, Free Kicks, Goal Kicks
+- Saves, Passes, Possession
+
+### 6. **Team Most Statistics**
+Rankings for which team will lead specific metrics - perfect for bookmaker "Team Most" markets.
+
+### 7. **First/Second Half Analysis**
+Separate projections for each half, recognizing that match dynamics change.
+
+### 8. **Weather Integration**
+`/weather` command factors conditions into projections.
+
+### 9. **Multi-League Coverage**
+100+ leagues from Premier League to obscure competitions.
+
+### 10. **Position-Aware Modeling**
+Lineup formation analysis affects team projection calculations.
+
+### 11. **Time Efficiency**
+What took hours now takes minutes. Complete fixture analysis in under 60 seconds.
+
+### 12. **Value-Based Approach**
+Mathematical edge calculation, not gut feeling.
+
+### 13. **Tiered Access**
+Free tier available; premium features at competitive pricing.
+
+### 14. **Google Sheets Integration**
+Automatic bet tracking and performance analysis.
+
+### 15. **Continuous Improvement**
+Regular updates based on user feedback and model refinement.
+
+---
+
+## 10. Niche Angles (15+ Specialized Strategies)
+
+### 1. **Sky Acca Freeze Specialization**
+Focus exclusively on A-rated freeze opportunities for consistent value.
+
+### 2. **First Half Card Hunting**
+Derbies and heated rivalries often see early cautions. Use 1st half card markets.
+
+### 3. **Rain Game Tackle Accumulation**
+Wet conditions increase tackles and fouls. Monitor `/weather` closely.
+
+### 4. **Underdog Goalkeeper Saves**
+Teams facing heavy shot volume create save opportunities for opposing GKs.
+
+### 5. **Possession-Based Corner Analysis**
+High possession teams often win corner handicaps through sustained pressure.
+
+### 6. **Set Piece Specialist Teams**
+Track teams with high "From Corner" shot/goal projections.
+
+### 7. **Fast Break Counter Teams**
+Teams with high fast break shot projections excel against high lines.
+
+### 8. **Throw-in Set Piece Value**
+Underserved market - some teams have effective long throw routines.
+
+### 9. **Booking Spread Arbitrage**
+Asian handicap on cards often has pricing inefficiencies.
+
+### 10. **Second Half Goal Patterns**
+Teams with fitness advantages may score late. Check 2H projections.
+
+### 11. **Promotion/Relegation Battles**
+High-stakes matches often produce extreme card counts.
+
+### 12. **Friday Night Unders**
+First match of weekend often tactical and cagey.
+
+### 13. **Manager Change Reactions**
+New manager bounce affects team intensity metrics.
+
+### 14. **International Break Impact**
+Teams with many internationals may rotate/underperform initially.
+
+### 15. **Referee-Specific Patterns**
+Combine Team Bot projections with referee card tendencies.
+
+---
+
+## 11. Strategies (10+ Complete Strategies)
+
+### Strategy 1: The Freeze Specialist
+**Risk Level:** Medium  
+**Bankroll:** Any size
+
+1. Enable Freeze Alerts in settings
+2. Set minimum rating: A- or higher
+3. Set odds range: 2.0-6.0
+4. Only take A and A+ rated opportunities
+5. Stake 0.5-1u per opportunity
+6. Track results separately
+
+---
+
+### Strategy 2: The Corner Hunter
+**Risk Level:** Low-Medium  
+**Focus:** Corner markets
+
+1. Use `/stats` daily for corner projections
+2. Focus on high-possession attacking teams
+3. Check Corners Spread markets
+4. Target matches with >10.5 corner expectancy
+5. Combine with Team Most Corners analysis
+
+---
+
+### Strategy 3: The Live Over Monitor
+**Risk Level:** Low  
+**Requirements:** Club Legend tier
+
+1. Place 3-5 over bets daily
+2. Use `(feature removed)` during matches
+3. Let system auto-grade early wins
+4. Cash out when appropriate
+5. Track early win rate
+
+---
+
+### Strategy 4: The Weather Trader
+**Risk Level:** Medium  
+**Focus:** Weather-dependent markets
+
+1. Check `/weather` daily
+2. Rain forecast = focus on tackles/fouls/cards
+3. Wind forecast = focus on goal kicks/throw-ins
+4. Adjust stake sizes based on confidence
+5. Track weather-specific ROI
+
+---
+
+### Strategy 5: The Team Total Specialist
+**Risk Level:** Medium  
+**Focus:** Individual team totals
+
+1. Specialize in 3-4 teams you follow closely
+2. Use `/team` for deep analysis
+3. Team totals often have better value than match totals
+4. Focus on one market (e.g., Team Corners)
+5. Build expertise in niche
+
+---
+
+### Strategy 6: The Bet Builder Constructor
+**Risk Level:** Medium-High  
+**Focus:** Same-game parlays
+
+1. Use `/fixture` for comprehensive analysis
+2. Select 3-4 uncorrelated plays
+3. Ensure each has standalone value
+4. Check combined odds vs individual value
+5. Limit to 3-fold maximum for variance control
+
+---
+
+### Strategy 7: The First Half Bandit
+**Risk Level:** Medium  
+**Focus:** 1st half markets
+
+1. Target early kick-offs (more first half goals)
+2. Focus on high-pressing teams (early corners)
+3. Check derby matches (early cards)
+4. Use 1st half specific projections
+5. Smaller stakes due to variance
+
+---
+
+### Strategy 8: The Team Most Arbitrage
+**Risk Level:** Low  
+**Focus:** Team Most markets
+
+1. Use Team Most stats in `/stats`
+2. Identify clear favorites for specific metrics
+3. Compare with bookmaker odds
+4. Value often in "Most Shots" and "Most Corners"
+5. Lower limits but consistent value
+
+---
+
+### Strategy 9: The League Specialist
+**Risk Level:** Medium  
+**Focus:** Single league expertise
+
+1. Pick one league (e.g., Championship)
+2. Study `/topleague` weekly
+3. Learn league-specific tendencies
+4. Specialize in 2-3 markets
+5. Track league-specific ROI
+
+---
+
+### Strategy 10: The Volume Approach
+**Risk Level:** Medium-High  
+**Bankroll:** Larger recommended
+
+1. Set conservative filters (min 10% value)
+2. Take every alert that meets criteria
+3. Stake flat or Kelly-based
+4. Track over 100+ bet sample
+5. Adjust based on results
+
+---
+
+## 12. Explainers
+
+### How Team Projections Work
+
+The "Cebro" model analyzes:
+
+1. **Historical Performance** (Last 5 or 10 games)
+2. **Opponent Strength** (defensive/offensive ratings)
+3. **Playing Style** (possession, pressing intensity)
+4. **Match Context** (home/away, derby, stakes)
+5. **Lineup Quality** (confirmed or predicted)
+
+**Calculation Process:**
+```
+Raw Hit Rate → Opponent Adjustment → Style Modifier 
+    → Model Odds → Value Calculation → Stake Recommendation
+```
+
+---
+
+### How Freeze Alerts Work
+
+**Sky Acca Freeze** allows you to lock in prices before lineups are confirmed.
+
+**The Model Calculates:**
+1. **Score First Chance:** Probability of scoring the first goal
+2. **Lead Anytime Chance:** Probability of taking the lead at any point
+3. **Combined Rating:** A+ (best) to C- (marginal)
+
+**When to Use:**
+- You believe the odds will shorten after lineups
+- Early value opportunities
+- Before significant news breaks
+
+---
+
+### How XI Alerts Work
+
+**Process:**
+1. System polls SportMonks API every 7 seconds
+2. Detects when lineups are confirmed (75 mins before kickoff)
+3. Sends notification with:
+   - Confirmed starting XI
+   - Formation
+   - Any significant changes
+
+**Why It Matters:**
+- Lineup changes dramatically affect projections
+- Key player absences create new value
+- Unexpected starters may be mispriced
+
+---
+
+### How Live Commands Work
+
+**Features:**
+1. **Live Fixtures:** Currently playing matches
+2. **Real-Time Stats:** Current score, shots, corners, cards
+3. **Early Win Detection:** Over bets graded when threshold exceeded
+4. **Batch Processing:** Up to 50 fixtures per API call
+
+**Supported Markets for Early Grading:**
+- Goals (Team/Match totals)
+- Shots on Target
+- Total Shots
+- Corners
+- Cards/Bookings
+
+---
+
+### Understanding Predicted Lines
+
+**Structure:**
+```json
+{
+  "stat": "Shots",
+  "home": 14.5,
+  "away": 9.2,
+  "total": 23.7
+}
+```
+
+**How to Read:**
+- **Home/Away:** Team-specific projections
+- **Total:** Match total projection
+- **Scope:** Last 5, Last 10, or Season
+
+---
+
+## 13. Feedback & Success Stories
+
+### Positive Feedback
+
+> "Just done the tutorial and this bot is WILD! So good! Saves so much time"
+
+> "£15.99 which for what I've seen so far looks great value"
+
+> "Took some props for Betis vs Chelsea and they've already plummeted in price"
+- Cucurella 1+ Shots 2.10 > 1.66
+- Colwill 2+ Shots 8.00 > 5.00
+
+### Success Story: The Freeze Hunter
+
+
+### Success Story: The Corner Specialist
+
+> "Used Team Most corners to find 4 winners in one weekend. The model knows which teams press high."
+
+### Community Feedback
+
+> "The live command caught 3 early wins for me yesterday. Settled before halftime!"
+
+> "XI alerts saved me from a bad bet - key striker was benched, avoided a loss."
+
+---
+
+## 14. User Findings
+
+### Finding 1: Freeze A+ Opportunities Are Rare but Valuable
+A+ rated freeze alerts appear infrequently but have high hit rates when they do.
+
+### Finding 2: Team Totals > Match Totals for Value
+Bookmakers focus pricing on match totals, leaving team total markets softer.
+
+### Finding 3: First Half Cards Undervalued
+Derby matches especially show first half card value that model captures.
+
+### Finding 4: Weather Data Is Underutilized
+Users who check `/weather` report better results on affected markets.
+
+### Finding 5: Live Grading Saves Time
+Early win detection means funds available sooner for next opportunities.
+
+### Finding 6: Lineup Timing Critical
+Value often disappears within minutes of XI confirmation.
+
+### Finding 7: Team Most Markets Are Soft
+Bookmaker pricing on "Most Corners/Shots/Cards" often lags model projections.
+
+### Finding 8: Specialization Beats Diversification
+Users focusing on 2-3 leagues report better ROI than those spreading thin.
+
+### Finding 9: Settings Matter
+Default settings are conservative; adjusting unlocks more opportunities.
+
+### Finding 10: Volume + Patience = Profit
+Consistent application of value betting principles shows positive returns over 100+ bet samples.
+
+---
+
+## Appendix: Quick Reference
+
+### Command Cheat Sheet
+
+| Command | Purpose | Tier |
+|---------|---------|------|
+| `/start` | Welcome & overview | All |
+| `/today` | Today's fixtures | All |
+| `/tomorrow` | Tomorrow's fixtures | All |
+| `/team` | Team analysis | All |
+| `/league` | League fixtures | All |
+| `/stats` | Top projections | All |
+| `/top` | Global leaders | All |
+| `/topteam` | Team rankings | All |
+| `/topleague` | League leaders | All |
+| `/fixture` | Match deep-dive | Club Legend |
+| `/value` | Best value bets | Club Legend |
+
+
+| `/weather` | Weather alerts | All |
+| `/settings` | Preferences | Regular Starter+ |
+| `/track` | Bet history | All |
+
+### Market Emoji Reference
+
+| Emoji | Market |
+|-------|--------|
+| ⚽ | Goals |
+| ⛳ | Corners |
+| 📒 | Cards |
+| 🔫 | Shots |
+| 🎯 | Shots On Target |
+| 💥 | Fouls |
+| ⚔️ | Tackles |
+| 🚫 | Offsides |
+| 🙆‍♂️ | Throw-ins |
+| 🦵 | Free Kicks |
+| 🥅 | Goal Kicks |
+| 🧤 | Saves |
+
+---
+
+*Documentation compiled from Team Bot source code analysis and comprehensive beta feedback.*
+
+**For Support:** Contact via @PropprChat on Telegram
+
+**Last Updated:** March 4, 2026
+
+
+================================================================================

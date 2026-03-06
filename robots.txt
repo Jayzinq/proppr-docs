@@ -1,0 +1,38 @@
+# Proppr Documentation - robots.txt
+# AI crawlers are welcome
+
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /llms-player.txt
+Allow: /llms-team.txt
+Allow: /llms-arb.txt
+Allow: /llms-context.txt
+
+# Specific AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://docs.proppr.io/sitemap.xml

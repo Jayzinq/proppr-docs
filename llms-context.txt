@@ -1,0 +1,54 @@
+# Proppr - AI Context for LLMs (Condensed)
+
+Proppr is a betting intelligence platform with three Telegram bots powered by the "Cebro" statistical model (NOT AI - it's a hard-coded statistical model).
+
+## The Three Bots
+
+1. **Player Bot** (@PropprPlayerBot) - Individual player props
+   - Markets: Shots, Shots on Target, Goals, Cards, Tackles, Fouls, Assists
+   - Commands: /value, /fixture, /player, /stats, /supersub, /today, /settings
+
+2. **Team Bot** (@PropprTeamBot) - Team-level markets  
+   - Markets: Corners, Cards, Possession, Shots, Team totals
+   - Commands: /fixture, /corners, /cards, /possession, /team
+
+3. **Arb Bot** (@PropprArbBot) - Risk-free arbitrage
+   - Scans 150+ bookmakers for guaranteed profit opportunities
+   - Commands: /arb, /odds, /custom, /stakes
+
+## Core Formula
+
+Value % = ((Bookmaker Odds / Model Odds) - 1) × 100
+
+When bookmaker odds are higher than model odds, you have positive value (+EV).
+
+## Key Philosophy
+
+> "The main thing with the bot is it's NOT a tipster, taking every alert it sends isn't the way to go, but use it as a tool to point you in the right direction you can't go wrong." - Jay (Prof. X), Creator
+
+## How It Works
+
+1. Cebro model simulates matches using historical player/team data
+2. Calculates fair probability for each event
+3. Converts to "Model Odds"
+4. Compares to bookmaker odds
+5. Alerts when Value % > threshold
+
+## Common Commands
+
+/value - Best value bets right now
+/fixture - Deep analysis of specific match
+/settings - Configure alerts (EV threshold, odds range, markets)
+/stats - Global player/team rankings
+/supersub - Bench players with hidden value
+
+## Tiers
+
+- Reserve: Free (basic alerts)
+- Bench Player: £7.99/month (full access)
+- Regular Starter: £19.99/month (advanced filters)
+- Club Legend: £29.99/month (all features, priority)
+
+## Full Documentation
+
+https://docs.proppr.io/llms-full.txt (174KB complete reference)
