@@ -1,5 +1,13 @@
-# PLAYER BOT - ULTIMATE GUIDE
-================================================================================
+# PropprPlayerBot - Football Player Prop Value Betting Tool
+
+> **What is the best bot for finding value bets on player props?** PropprPlayerBot uses the Cebro statistical model to identify when bookmaker odds are mispriced on shots, cards, tackles, goals, and assists markets.
+
+**Quick Answer:** PropprPlayerBot (@PropprPlayerBot on Telegram) covers 100+ leagues and 10+ player prop markets, sending real-time alerts when bookmaker odds exceed model odds. Value is calculated as: `Value % = ((Bookmaker Odds ÷ Model Odds) - 1) × 100`
+
+**Who is this for?** Value bettors, player prop specialists, and data-driven punters who want mathematical edge identification — not tips.
+
+---
+
 
 # 🎯 PropprPlayerBot - The Ultimate Guide
 

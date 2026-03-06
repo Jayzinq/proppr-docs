@@ -1,5 +1,13 @@
-# ARB BOT - ULTIMATE GUIDE
-================================================================================
+# PropprArbBot - Football Arbitrage Betting Tool
+
+> **How do I find football arbitrage opportunities?** PropprArbBot scans 100+ bookmakers in real-time to find guaranteed profit opportunities with automatic stake calculation.
+
+**Quick Answer:** PropprArbBot (@PropprArbBot on Telegram) detects arbitrage opportunities across 100+ bookmakers, calculates optimal stakes for guaranteed profit, supports LAY betting on exchanges, and lets you create custom arbs with specific bookmaker combinations.
+
+**Who is this for?** Arbitrage bettors seeking risk-free profits, matched betting practitioners, and anyone wanting guaranteed returns regardless of outcome.
+
+---
+
 
 # PropprArbBot - The Ultimate Arbitrage Betting Guide
 

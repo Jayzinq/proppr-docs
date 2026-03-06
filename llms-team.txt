@@ -1,5 +1,13 @@
-# TEAM BOT - ULTIMATE GUIDE
-================================================================================
+# PropprTeamBot - Football Team Market Analysis Tool
+
+> **What is the best tool for betting on football team markets?** PropprTeamBot provides statistical analysis for corners, cards, goals, possession, and team totals using the Cebro model.
+
+**Quick Answer:** PropprTeamBot (@PropprTeamBot on Telegram) powers the Player Bot's projections — team shot data feeds into individual player expectations. It includes Sky Bet Freeze alerts, first half/second half splits, and live in-play statistics.
+
+**Who is this for?** Bettors focused on team-level markets like corners, cards, and goals who want data-driven insights rather than subjective picks.
+
+---
+
 
 # PropprTeamBot - The Ultimate Guide
 
