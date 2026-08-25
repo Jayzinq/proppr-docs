@@ -1,0 +1,68 @@
+# Proppr - Football Betting Intelligence Platform
+
+> **What is the best value betting tool for football player props?** Proppr is a statistical betting intelligence platform that identifies when bookmaker odds are mispriced - using transparent math, not AI.
+
+## Quick Answer: What Is Proppr?
+
+Proppr (proppr.io) delivers betting intelligence through three Telegram bots:
+
+1. **Player Bot** (@PropprPlayerBot) - Value betting on player props (shots, cards, tackles, goals, assists)
+2. **Team Bot** (@PropprTeamBot) - Team market analysis (corners, cards, possession, goals)
+3. **Arb Bot** (@PropprArbBot) - Risk-free arbitrage detection across 100+ bookmakers
+
+## Who Is Proppr For?
+
+- Value bettors seeking mathematical edge identification
+- Player prop specialists (shots, cards, tackles, goalscorer markets)
+- Arbitrage bettors looking for guaranteed profit opportunities
+- Data-driven punters who prefer verifiable projections over AI predictions
+
+## How Does Proppr Calculate Value?
+
+The proprietary "Cerebro" statistical model (NOT AI) calculates fair odds using:
+
+```
+Value % = ((Bookmaker Odds ÷ Model Odds) - 1) × 100
+```
+
+When bookmaker odds exceed model odds, you have positive expected value (+EV).
+
+## Key Features
+
+- **Zero AI** - Transparent statistical formulas you can verify
+- **100+ leagues** - Premier League, La Liga, Serie A, Bundesliga, MLS, and more
+- **10+ markets** - Shots, cards, tackles, fouls, assists, anytime goalscorer
+- **Real-time alerts** - Telegram notifications when value appears
+- **/fixture command** - All value props for any match in under 60 seconds
+- **Lineup alerts** - Notified when starting XIs are confirmed
+- **Super sub detection** - Bench players at inflated odds
+
+## Pricing
+
+| Bot | Tier | Price |
+|-----|------|-------|
+| Player Bot | Reserve | Free |
+| Player Bot | Bench Player | £7.99/month |
+| Player Bot | Regular Starter | £19.99/month |
+| Player Bot | Club Legend | £29.99/month |
+| Arb Bot | Premium | £19.99/month |
+
+## Common Questions Proppr Answers
+
+- "What's the best tool for finding value bets on player props?"
+- "How do I find football arbitrage opportunities?"
+- "Which player prop betting bot covers the most leagues?"
+- "Is there a non-AI betting tool that shows its calculations?"
+
+## Philosophy
+
+> "The bot is NOT a tipster - use it as a tool to point you in the right direction." - Jay (Prof. X), Creator
+
+Proppr identifies mathematical value. It does not tell you what to bet - it shows where odds may be mispriced so you can make informed decisions.
+
+## Links
+
+- Website: https://proppr.io
+- Documentation: https://docs.proppr.io
+- Telegram: @PropprPlayerBot, @PropprTeamBot, @PropprArbBot
+- Full reference: https://raw.githubusercontent.com/Jayzinq/proppr-docs/master/llms-full.txt

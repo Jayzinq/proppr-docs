@@ -1,0 +1,5 @@
+date,time,event,sport,league,country,market,selection,market_direction,threshold,odds,stake,result,bookmaker,group,team,player_name,closing_odds,cashout,prediction_market,prediction_position,comment
+2026-06-27,21:00,Panama vs England,football,FIFA World Cup,International,Match Result,England,,,1.90,1.5,pending,Bet365,World Cup angles,,,,,,,
+2026-06-28,20:00,Spain vs Germany,football,International Friendly,International,Total Cards,Over 4.5,over,4.5,1.95,1.0,won,Pinnacle,Card model,,,,,,,
+2026-06-29,18:30,Arsenal vs Chelsea,football,Premier League,England,Player Shots On Target,Bukayo Saka Over 0.5 Shots On Target,over,0.5,1.83,1.0,pending,Bet365,Player props,,Bukayo Saka,,,,,
+2026-03-01,15:00,Will FC Zlin win on 2026-03-01?,prediction,Polymarket,,Prediction Market,Yes,yes,,1.72 (58.2¢),30.81,cashed out,Polymarket,Prediction trades,,,,81¢,Will FC Zlin win on 2026-03-01?,Yes,Exit price can be entered as cents

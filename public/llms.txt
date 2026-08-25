@@ -1,0 +1,36 @@
+# Proppr.io - LLM Documentation Index
+# https://llmstxt.org standard
+
+> Proppr is a football betting intelligence ecosystem with 3 Telegram bots powered by the "Cerebro" statistical model.
+
+## Documentation Files
+
+- [Full Documentation](https://docs.proppr.io/llms-full.txt) - Complete 174KB reference
+- [Condensed Context](https://docs.proppr.io/llms-context.txt) - 2KB quick reference
+- [Player Bot Guide](https://docs.proppr.io/llms-player.txt) - 56KB player props documentation
+- [Team Bot Guide](https://docs.proppr.io/llms-team.txt) - 40KB team markets documentation
+- [Arb Bot Guide](https://docs.proppr.io/llms-arb.txt) - 80KB arbitrage documentation
+
+## Quick Reference
+
+### The Three Bots
+1. **Player Bot** (@PropprPlayerBot) - Value betting on player props (shots, cards, goals, tackles)
+2. **Team Bot** (@PropprTeamBot) - Team market analysis (corners, cards, possession)
+3. **Arb Bot** (@PropprArbBot) - Real-time arbitrage detection across 150+ bookmakers
+
+### Core Formula
+Value % = ((Bookmaker Odds / Model Odds) - 1) × 100
+
+### Key Philosophy
+> "The bot is NOT a tipster - use it as a tool to point you in the right direction."
+
+### Pricing Tiers
+- Reserve: Free (basic alerts)
+- Bench Player: £7.99/month
+- Regular Starter: £19.99/month
+- Club Legend: £29.99/month
+
+## Links
+- Website: https://docs.proppr.io
+- Telegram: @PropprPlayerBot, @PropprTeamBot, @PropprArbBot
+- Community: @PropprChat
