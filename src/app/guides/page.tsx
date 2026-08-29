@@ -30,8 +30,8 @@ const guides = [
     {
         href: "/guides/arbitrage-betting",
         title: "Arbitrage Explained",
-        subtitle: "A Beginner's Guide to Risk-Free Profit",
-        desc: "How to lock in guaranteed profit regardless of outcome. Stake calculation, finding arbs, and managing bookmaker accounts.",
+        subtitle: "A Beginner's Guide to Arbitrage Betting",
+        desc: "How to lock in the same return whichever way it goes, at the prices you capture. Stake calculation, finding arbs, and managing bookmaker accounts.",
         icon: TrendingUp,
         color: "orange",
         readTime: "10 min read",

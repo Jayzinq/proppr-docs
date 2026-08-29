@@ -58,7 +58,7 @@ const tiers = [
     price: "FREE",
     period: "forever",
     billing: "",
-    desc: "Try arbitrage betting risk-free",
+    desc: "Try arbitrage betting at no cost",
     features: ["Arbs up to 1% margin", "5-min cooldown between alerts", "Max 6 alerts per hour", "Full bookmaker selection", "Stake calculator included"],
     popular: false,
   },
@@ -76,7 +76,7 @@ const tiers = [
 const faqs = [
   {
     q: "What exactly is arbitrage betting?",
-    a: "Arbitrage (arbing) exploits price discrepancies between bookmakers. By backing different outcomes at different books, you guarantee a profit regardless of result. Example: Bet365 offers 2.10 on Under 2.5 goals. Pinnacle offers 2.05 on Over 2.5. Total implied probability = 47.6% + 48.8% = 96.4%. That 3.6% gap is your guaranteed profit.",
+    a: "Arbitrage (arbing) exploits price discrepancies between bookmakers. By backing different outcomes at different books, the arithmetic returns the same amount whichever way it goes — at the prices you captured, and only if every leg actually gets on. Example: Bet365 offers 2.10 on Under 2.5 goals. Pinnacle offers 2.05 on Over 2.5. Total implied probability = 47.6% + 48.8% = 96.4%. That 3.6% gap is your margin at those prices.",
   },
   {
     q: "How fast do opportunities disappear?",
@@ -87,7 +87,7 @@ const faqs = [
     a: "Regular arbing at high stakes will eventually flag accounts. Best practices: vary stake sizes, don't always arb the same bookmaker pairs, follow normal betting patterns, and avoid the same market repeatedly. The Arb Bot alerts you to the opportunity - stake management is your responsibility.",
   },
   {
-    q: "What is the 'Risk-Free' (RF) strategy?",
+    q: "What is the 'RF' (risk-free low/high) staking mode?",
     a: "Rather than backing both sides at equal profit, the RF strategy maximizes your return on one outcome while still covering the other with a smaller stake for downside protection. The Arb Bot's stake calculator provides both the standard arb breakdown and an RF breakdown for every alert.",
   },
   {
@@ -141,7 +141,7 @@ export default function ArbBotMarketing() {
               <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}
                 className="flex items-center gap-2 mb-8">
                 <span className="w-8 h-px bg-sky-500" />
-                <span className="text-sky-400 font-mono text-xs tracking-[0.2em] uppercase">150+ Bookmakers · Guaranteed Profit · Real-Time Alerts</span>
+                <span className="text-sky-400 font-mono text-xs tracking-[0.2em] uppercase">150+ Bookmakers · Balanced Returns · Real-Time Alerts</span>
               </motion.div>
 
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.05 }}
@@ -214,7 +214,7 @@ export default function ArbBotMarketing() {
                   <div>   Stake: <span className="text-emerald-300">£51.22</span></div>
                   <div className="pt-1 text-emerald-400 font-bold">💵 Arb Target: 3.6%</div>
                   <div>💵 Total Stake: <span className="text-white">£100.00</span></div>
-                  <div className="text-emerald-400">💵 Guaranteed Return: £102.44</div>
+                  <div className="text-emerald-400">💵 Return at the captured prices: £102.44</div>
                   <div className="text-zinc-600 text-[11px] pt-1">⏱ Alert age: 8 seconds · Act fast</div>
                 </div>
               </div>
@@ -259,7 +259,7 @@ export default function ArbBotMarketing() {
               <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
                 className="space-y-4">
                 {[
-                  { icon: ShieldCheck, title: "Guaranteed Profit", desc: "Both outcomes are covered. One wins, one loses. The margin is your guaranteed profit regardless of the result." },
+                  { icon: ShieldCheck, title: "Balanced Return", desc: "Both outcomes are covered. One wins, one loses. The margin is your return at the captured prices, provided both legs get on." },
                   { icon: Calculator, title: "Stake Calculator Built-In", desc: "Every alert includes the exact stake split per bookmaker. No manual calculation needed - just place the amounts shown." },
                   { icon: Zap, title: "60-120 Second Windows", desc: "Bookmakers close lines fast. Enable Telegram push notifications and have accounts open. Speed is the only skill required." },
                   { icon: Globe, title: "150+ Bookmakers Scanned", desc: "The more books you have accounts with, the more arbs you'll see. UK, EU, US, Africa, and sharp exchanges all included." },
@@ -292,7 +292,7 @@ export default function ArbBotMarketing() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-0 border border-white/10 rounded-2xl overflow-hidden divide-y lg:divide-y-0 lg:divide-x divide-white/10">
             {[
-              { n: "01", title: "Receive Alert", desc: "Telegram push notification arrives with exact stake amounts, bookmakers, selections, and guaranteed profit locked in." },
+              { n: "01", title: "Receive Alert", desc: "Telegram push notification arrives with exact stake amounts, bookmakers, selections, and the return those prices lock in." },
               { n: "02", title: "Open Both Books", desc: "Have both bookmaker accounts open in separate tabs simultaneously. Log in before you need to place - don't log in under time pressure." },
               { n: "03", title: "Place Bet 1 First", desc: "Start with the less liquid book (not Betfair Exchange). Confirm Bet 1 is placed before moving to Bet 2." },
               { n: "04", title: "Place Bet 2 Immediately", desc: "Place Bet 2 within seconds. If odds have moved, recalculate your stake using the formula in /arb-bot/commands or walk away." },
@@ -461,7 +461,7 @@ export default function ArbBotMarketing() {
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,rgba(14,165,233,0.10),transparent_70%)]" />
             <div className="absolute inset-0 bg-[linear-gradient(rgba(14,165,233,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(14,165,233,0.02)_1px,transparent_1px)] bg-[size:40px_40px]" />
             <div className="relative z-10 p-12 sm:p-20 text-center">
-              <div className="font-mono text-sky-400 text-xs tracking-[0.2em] uppercase mb-6">Risk-Free Profit</div>
+              <div className="font-mono text-sky-400 text-xs tracking-[0.2em] uppercase mb-6">Balanced Returns</div>
               <TextsReveal>
                 <h2 className="t-stagger-line t-stagger-line--1 text-4xl sm:text-5xl font-black text-white tracking-tight uppercase mb-4">
                   The Only Bet<br />You Can&apos;t Lose.

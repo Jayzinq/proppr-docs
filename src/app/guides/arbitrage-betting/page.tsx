@@ -28,7 +28,7 @@ export default function ArbitrageBetting() {
                                 <TrendingUp className="w-6 h-6 text-orange-400" />
                             </div>
                             <div>
-                                <span className="text-orange-400 font-mono text-[10px] uppercase tracking-widest font-bold">Risk-Free Strategy</span>
+                                <span className="text-orange-400 font-mono text-[10px] uppercase tracking-widest font-bold">Arbitrage Strategy</span>
                                 <span className="text-zinc-600 mx-2">·</span>
                                 <span className="text-zinc-500 text-xs">10 min read</span>
                             </div>
@@ -39,7 +39,7 @@ export default function ArbitrageBetting() {
                             <span className="text-orange-500">Explained</span>
                         </h1>
                         <p className="text-zinc-400 text-lg leading-relaxed max-w-2xl">
-                            Guaranteed profit regardless of outcome. Here&apos;s how it works.
+                            The same return whichever way it goes, at the prices you capture. Here&apos;s how it works.
                         </p>
                     </motion.div>
                 </section>
@@ -50,7 +50,7 @@ export default function ArbitrageBetting() {
 
                         <h2 className="text-2xl font-black text-white mt-12 mb-4 uppercase tracking-tight">What is Arbitrage Betting?</h2>
                         <p className="text-zinc-400 mb-4">
-                            Arbitrage betting (arbing) exploits price differences between bookmakers. When different bookmakers offer odds that, combined, create a situation where the total implied probability is below 100%, you can bet on all outcomes and guarantee profit.
+                            Arbitrage betting (arbing) exploits price differences between bookmakers. When different bookmakers offer odds that, combined, create a situation where the total implied probability is below 100%, you can bet on all outcomes for the same return whichever way it goes, at those prices.
                         </p>
                         <p className="text-zinc-400 mb-8">
                             It&apos;s not gambling. It&apos;s mathematics.
@@ -171,7 +171,7 @@ export default function ArbitrageBetting() {
                             <div className="text-zinc-500 text-sm mb-2">Example:</div>
                             <div className="text-zinc-400">BACK Arsenal @ 2.50 (Bet365)</div>
                             <div className="text-zinc-400">LAY Arsenal @ 2.40 (Betfair)</div>
-                            <div className="text-emerald-400 font-bold mt-3">Guaranteed profit from the price gap</div>
+                            <div className="text-emerald-400 font-bold mt-3">Return from the price gap, at those odds</div>
                         </div>
                         <p className="text-zinc-400 mb-10">
                             The Arb Bot accounts for exchange commission (default 2%) in all profit calculations.

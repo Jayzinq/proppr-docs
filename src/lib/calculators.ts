@@ -47,8 +47,8 @@ export const CALCULATORS: CalculatorConfig[] = [
         id: 'arbitrage',
         name: 'Arbitrage Calculator',
         shortName: 'Arbitrage',
-        description: 'Find risk-free arbitrage opportunities by comparing odds across different bookmakers.',
-        seoDescription: 'Calculate guaranteed profits with our free arbitrage betting calculator. Compare odds and find risk-free betting opportunities.',
+        description: 'Find arbitrage opportunities by comparing odds across different bookmakers, and see the return each leg locks in at the prices you enter.',
+        seoDescription: 'Free arbitrage betting calculator. Compare bookmaker odds, work out the balanced stakes, and see the return at the captured prices.',
         inputs: [
             { id: 'odds1', label: 'Odds 1 (Decimal or American)', type: 'text', placeholder: '+110 or 2.10' },
             { id: 'odds2', label: 'Odds 2 (Decimal or American)', type: 'text', placeholder: '-105 or 1.95' },
@@ -117,7 +117,7 @@ export const CALCULATORS: CalculatorConfig[] = [
         id: 'bonus-bet',
         name: 'Bonus Bet Conversion Calculator',
         shortName: 'Bonus Bet',
-        description: 'Maximize your free bets by finding the optimal hedge stake to guarantee cash profit.',
+        description: 'Maximise your free bets by finding the hedge stake that returns the same cash whichever way the event goes, at the prices you enter.',
         seoDescription: 'Convert free bets to cash guaranteed. Use our Bonus Bet Conversion Calculator to find the optimal hedge size.',
         inputs: [
             { id: 'bonusStake', label: 'Free Bet Amount ($)', type: 'number', defaultValue: 50 },

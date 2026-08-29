@@ -11,10 +11,10 @@ export default function ArbBotDocs() {
                 <div className="mb-8 p-5 rounded-xl bg-gradient-to-r from-orange-500/10 to-transparent border border-orange-500/20">
                     <div className="flex items-center gap-2 mb-2">
                         <Percent className="w-4 h-4 text-orange-400" />
-                        <span className="text-xs font-medium text-orange-400 uppercase tracking-wider">Risk-Free Arbitrage</span>
+                        <span className="text-xs font-medium text-orange-400 uppercase tracking-wider">Arbitrage</span>
                     </div>
                     <h1 className="text-2xl md:text-3xl font-heading font-bold text-white mb-2">
-                        Guaranteed Profit on Every Bet - Regardless of Outcome
+                        A Balanced Return at the Captured Prices, Whichever Way It Goes
                     </h1>
                     <p className="text-sm text-zinc-400">
                         100+ bookmakers scanned in real-time. Stakes auto-calculated. Place both sides, lock in profit. Example: £100 stake → £103.74 return = 3.60% locked.
@@ -29,7 +29,7 @@ export default function ArbBotDocs() {
                 </div>
 
                 <p className="text-base text-zinc-400 leading-relaxed mb-12">
-                    <a href="https://t.me/PropprArbBot" className="text-orange-400 font-medium">@PropprArbBot</a> finds mathematical price discrepancies across 100+ bookmakers - place bets on all outcomes and guarantee profit regardless of the result.
+                    <a href="https://t.me/PropprArbBot" className="text-orange-400 font-medium">@PropprArbBot</a> finds mathematical price discrepancies across 100+ bookmakers - place bets on all outcomes for a balanced return at the captured prices — provided every leg is actually placed, and prices can move before you get them on.
                 </p>
 
                 {/* What is Arbing */}
@@ -43,7 +43,7 @@ export default function ArbBotDocs() {
                         </div>
                         <h3 className="font-semibold text-white mb-2">The Setup</h3>
                         <p className="text-sm text-zinc-400">
-                            Different bookmakers price the same outcome differently. When the combined implied probability across all outcomes falls below 100%, a guaranteed profit exists.
+                            Different bookmakers price the same outcome differently. When the combined implied probability across all outcomes falls below 100%, the odds allow a balanced return across every outcome.
                         </p>
                     </div>
                     <div className="glass p-6 rounded-xl border border-white/10">
@@ -52,7 +52,7 @@ export default function ArbBotDocs() {
                         </div>
                         <h3 className="font-semibold text-white mb-2">The Lock</h3>
                         <p className="text-sm text-zinc-400">
-                            Bet365 Over 2.5 @ 2.10 + Pinnacle Under 2.5 @ 2.05. Stake £49.40/£50.60 = £100 total. Guaranteed return: £103.74. Locked profit: <strong className="text-emerald-400">3.60%</strong>.
+                            Bet365 Over 2.5 @ 2.10 + Pinnacle Under 2.5 @ 2.05. Stake £49.40/£50.60 = £100 total. Return at those prices: £103.74. Margin: <strong className="text-emerald-400">3.60%</strong>.
                         </p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ export default function ArbBotDocs() {
                     Bet #1: <span className="text-white">£41.86 @ 2.50</span><br />
                     Bet #2: <span className="text-white">£58.14 @ 1.80</span><br />
                     Total Stake: <span className="text-white">£100.00</span><br />
-                    <span className="text-emerald-400">💰 Guaranteed Return: £104.65 - Profit £4.65 (4.65%)</span>
+                    <span className="text-emerald-400">💰 Return at the captured prices: £104.65 - Margin £4.65 (4.65%)</span>
                 </div>
 
                 {/* Three Stake Scenarios */}
@@ -182,7 +182,7 @@ export default function ArbBotDocs() {
                             color: "text-cyan-400",
                             bg: "bg-cyan-500/20",
                             title: "Middle Arbs",
-                            desc: "\"💰💎 MIDDLE ARBITRAGE OPPORTUNITY 💎💰\" alerts flag line gaps where BOTH bets can win - e.g. Over 2.0 / Under 3.0. The alert shows the guaranteed profit plus the middle return if the result lands in the window."
+                            desc: "\"💰💎 MIDDLE ARBITRAGE OPPORTUNITY 💎💰\" alerts flag line gaps where BOTH bets can win - e.g. Over 2.0 / Under 3.0. A middle is NOT arbitrage: only the gap outcome wins both legs, and every other outcome loses one. The alert shows the cost when the gap misses alongside the return if it lands."
                         },
                         {
                             icon: Scale,

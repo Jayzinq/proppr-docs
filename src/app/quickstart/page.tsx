@@ -67,7 +67,7 @@ export default function QuickStart() {
                             {[
                                 { name: "Player Bot", desc: "Goals, shots, cards, tackles & more.", handle: "@PropprPlayerBot", href: "https://t.me/PropprPlayerBot" },
                                 { name: "Team Bot", desc: "Corners, cards, shots, possession.", handle: "@PropprTeamBot", href: "https://t.me/PropprTeamBot" },
-                                { name: "Arb Bot", desc: "Guaranteed profit across 150+ books.", handle: "@PropprArbBot", href: "https://t.me/PropprArbBot" },
+                                { name: "Arb Bot", desc: "Price gaps across 150+ books, with the balanced stakes worked out.", handle: "@PropprArbBot", href: "https://t.me/PropprArbBot" },
                             ].map((bot) => (
                                 <TiltCard key={bot.name}>
                                     <div className="h-full bg-white/5 border border-white/10 rounded-xl p-4">
@@ -193,7 +193,7 @@ export default function QuickStart() {
                             {[
                                 { title: "Player Bot Guide", desc: "Master all 25+ commands, the Cerebro model, and Super Sub strategies.", href: "/player-bot" },
                                 { title: "Team Bot Guide", desc: "Understand 12+ markets from corners to possession and live monitoring.", href: "/team-bot" },
-                                { title: "Arb Bot Guide", desc: "Set up multiple bookmakers and start capturing guaranteed profits.", href: "/arb-bot" },
+                                { title: "Arb Bot Guide", desc: "Set up multiple bookmakers and start acting on price gaps.", href: "/arb-bot" },
                             ].map(({ title, desc, href }) => (
                                 <TiltCard key={title}>
                                     <a href={href} className="block h-full bg-white/5 border border-white/10 rounded-xl p-4 hover:bg-white/10 transition-colors group">

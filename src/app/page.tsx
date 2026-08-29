@@ -53,7 +53,7 @@ const teamTiers = [
 ];
 
 const arbTiers = [
-  { name: "Demo", price: "FREE", period: "forever", billing: "", desc: "Try arbitrage betting risk-free", features: ["Arbs up to 1% margin", "5-min cooldown between alerts", "Max 6 alerts per hour", "Full bookmaker selection", "Stake calculator"], popular: false },
+  { name: "Demo", price: "FREE", period: "forever", billing: "", desc: "Try arbitrage betting at no cost", features: ["Arbs up to 1% margin", "5-min cooldown between alerts", "Max 6 alerts per hour", "Full bookmaker selection", "Stake calculator"], popular: false },
   { name: "Premium", price: "£23.99", period: "per month", billing: "£6.99/wk · £23.99/mo · £311.99/yr", desc: "Unlimited arbitrage opportunities", features: ["ALL arbs – no margin cap", "Unlimited alerts 24/7", "No rate limiting", "High-value arbs (5%+ margins)", "150+ bookmakers", "Priority support"], popular: true },
 ];
 
@@ -66,7 +66,7 @@ const faqs = [
   { q: "Is the bot a tipster?", a: "No. The bot identifies potential value plays - not guaranteed winners. As Jay (Prof. X) says: 'There will be just as many losing alerts as winning alerts. The edge comes from long-term volume on positive EV plays.' Use it as a research tool, not a blind following system." },
   { q: "What makes this different from other betting tools?", a: "The Cebro model is hard-coded mathematics - not AI, not machine learning. It analyzes position-specific data from last 5-10 games with 60-70% model confidence. No hallucinated stats, no guessing, no ChatGPT outputs." },
   { q: "What does 'Value %' mean?", a: "Value % = ((Bookmaker Odds ÷ Model Odds) − 1) × 100. Example: Bookmaker offers 8.5, model calculates 2.86 fair odds = 197.2% value. You're being paid nearly 3x what the math says is fair." },
-  { q: "How does arbitrage work?", a: "The Arb Bot finds price discrepancies between bookmakers for the same event. By backing both sides at different books, you lock in guaranteed profit regardless of outcome. Example: £100 total stake → £102.44 return = 2.44% locked profit." },
+  { q: "How does arbitrage work?", a: "The Arb Bot finds price discrepancies between bookmakers for the same event. By backing both sides at different books, the arithmetic returns the same amount whichever way it goes — at the prices you captured, and only if both legs get on. Example: £100 total stake → £102.44 return = 2.44% margin." },
   { q: "What leagues are covered?", a: "100+ leagues worldwide: Premier League, La Liga, Serie A, Bundesliga, MLS, Liga MX, Saudi Pro League, Eredivisie, Ligue 1, and major South American/Asian competitions. If bookmakers price it, we analyze it." },
   { q: "How fast do arb opportunities disappear?", a: "Most arbitrage opportunities last 60-120 seconds before bookmakers correct their lines. High-value arbs (5%+) often vanish within 30 seconds. Enable Telegram push notifications and have bookmaker accounts open." },
   { q: "Which bookmakers does the Arb Bot cover?", a: "150+ bookmakers including Bet365, Betfair Exchange, Pinnacle, Smarkets, Ladbrokes, William Hill, DraftKings, FanDuel, Winamax, and more across 30+ countries. Enable only the books where you have funded accounts." },

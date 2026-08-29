@@ -23,7 +23,7 @@ export const CalculatorContent: Record<string, React.ReactNode> = {
                 <li>Stake £50.60 on Chelsea at 2.05 (21/20)</li>
             </ul>
             <p className="text-[15px] text-gray-600 leading-relaxed">
-                No matter who wins, your return will be <strong>£103.73</strong>. Since your total stake was £100, you have locked in a guaranteed risk-free profit of <strong>£3.73</strong> (a 3.73% return on investment).
+                No matter who wins, your return will be <strong>£103.73</strong>. Since your total stake was £100, you have locked in £3.73 (a 3.73% return) at those prices — provided both legs are actually placed at them.
             </p>
 
             <div className="border-t border-gray-100 pt-8 mt-8">
@@ -32,7 +32,7 @@ export const CalculatorContent: Record<string, React.ReactNode> = {
                     <div>
                         <h4 className="text-[16px] font-bold">What is an arbitrage opportunity?</h4>
                         <p className="text-[14px] text-gray-600 mt-2">
-                            An arbitrage opportunity arises when bookmakers have opposing views on an outcome, or when one bookmaker is slow to update their odds. By covering all possible outcomes across different bookmakers, you guarantee a profit.
+                            An arbitrage opportunity arises when bookmakers have opposing views on an outcome, or when one bookmaker is slow to update their odds. Covering every outcome across those bookmakers returns a profit at the captured prices — provided every leg is actually placed at them.
                         </p>
                     </div>
                     <div>
@@ -105,10 +105,10 @@ export const CalculatorContent: Record<string, React.ReactNode> = {
         <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 shadow-sm space-y-6 text-[#121212]">
             <h2 className="text-2xl font-bold">How does the Bonus Bet Conversion Calculator work?</h2>
             <p className="text-[15px] text-gray-600 leading-relaxed">
-                When a bookmaker gives you a &quot;Free Bet&quot; or &quot;Bonus Bet&quot;, the stake is usually not returned in your winnings. The Free Bet Conversion Calculator helps you extract guaranteed cash from these offers using matched betting strategies, typically aiming to convert at least 70-80% of the free bet value into real cash.
+                When a bookmaker gives you a &quot;Free Bet&quot; or &quot;Bonus Bet&quot;, the stake is usually not returned in your winnings. The Free Bet Conversion Calculator helps you convert those offers into cash you keep whichever way the event goes using matched betting strategies, typically aiming to convert at least 70-80% of the free bet value into real cash.
             </p>
             <p className="text-[15px] text-gray-600 leading-relaxed">
-                For example, if you place a £50 free bet on Tottenham at <strong>4.00 (3/1)</strong>, and hedge the opposite outcome on an exchange at <strong>4.10 (31/10)</strong>, you can lock in around £35 in risk-free cash regardless of the match result.
+                For example, if you place a £50 free bet on Tottenham at <strong>4.00 (3/1)</strong>, and hedge the opposite outcome on an exchange at <strong>4.10 (31/10)</strong>, you can lock in around £35 whichever way the match goes, at those prices.
             </p>
         </div>
     ),
