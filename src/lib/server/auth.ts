@@ -110,10 +110,23 @@ export function requireSessionForUser(req: NextRequest, claimedUserId: string | 
     return session;
 }
 
+/** Pure predicate, exported so the missing-variable case is testable. */
+export function legacyWindowOpenFor(value: string | undefined): boolean {
+    // FAIL CLOSED. This gate decides whether an ANONYMOUS caller may read another
+    // user's bets, stats, bankrolls and exports, so an environment that forgets
+    // the variable must deny, not allow. It previously read `!== "0"`, which
+    // meant a missing value opened the window: verified locally, an anonymous
+    // GET /api/bets/user/<id> returned 200 with real bet history.
+    //
+    // Safe to invert because the migration is already over everywhere it runs -
+    // app.proppr.io, proppr.io and docs.proppr.io all answer that request 401
+    // today, so no supported client can still depend on the legacy path. Set
+    // PROPPR_LEGACY_READ_WINDOW=1 to deliberately reopen it.
+    return value === "1";
+}
+
 export function legacyWindowOpen(): boolean {
-    // Default OPEN until the cutover flag flips it closed; set
-    // PROPPR_LEGACY_READ_WINDOW=0 to end the migration window.
-    return authEnv().PROPPR_LEGACY_READ_WINDOW !== "0";
+    return legacyWindowOpenFor(authEnv().PROPPR_LEGACY_READ_WINDOW);
 }
 
 /**
