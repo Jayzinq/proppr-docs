@@ -7,7 +7,19 @@ REMOTE_DIR="/opt/proppr-docs"
 
 echo "Deploying proppr-docs to $SERVER_IP..."
 
-rsync -avz --exclude 'node_modules' --exclude '.next' --exclude '.git' "$LOCAL_DIR/" "root@$SERVER_IP:$REMOTE_DIR/"
+# --exclude '.env*' is load-bearing. authEnv() reads .env.local LAST before
+# process.env, so a local one shipped here silently outranks the server's own
+# config - including PROPPR_LEGACY_READ_WINDOW, which gates anonymous reads of
+# another user's bets. A symlinked .env.local resolves on the server to the real
+# secrets file. Same fix as proppr-app/deploy.sh.
+RSYNC_EXCLUDES=(
+  --exclude 'node_modules' --exclude '.next' --exclude '.git'
+  --exclude '.env*'
+  --exclude 'test-results' --exclude 'playwright-report'
+  --exclude 'tsconfig.tsbuildinfo' --exclude '.DS_Store'
+)
+
+rsync -avz "${RSYNC_EXCLUDES[@]}" "$LOCAL_DIR/" "root@$SERVER_IP:$REMOTE_DIR/"
 
 echo "Rebuilding and restarting on server..."
 # -e inside the heredoc makes the remote shell abort on the first failure, and the
