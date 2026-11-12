@@ -598,7 +598,7 @@ export default function AnalyticsPage() {
         const bankrollId = localStorage.getItem('active_bankroll_id') || 'personal';
         setActiveBankrollId(bankrollId);
 
-        api.bets.getUserBetsLite(Number(userId))
+        api.bets.getUserBetsLite(Number(userId), bankrollId === 'onlygoals' || bankrollId === 'onlycards' ? bankrollId : undefined)
             .then((data) => setAllBets(Array.isArray(data.bets) ? data.bets : []))
             .catch((error) => console.error(error))
             .finally(() => setLoading(false));
@@ -616,8 +616,14 @@ export default function AnalyticsPage() {
                 .catch(() => {});
         };
         loadBankrolls();
-            
-        const handleBankrollChange = () => loadBankrolls();
+        const handleBankrollChange = () => {
+            loadBankrolls();
+            const nextBankrollId = localStorage.getItem('active_bankroll_id') || 'personal';
+            api.bets.getUserBetsLite(Number(userId), nextBankrollId === 'onlygoals' || nextBankrollId === 'onlycards' ? nextBankrollId : undefined)
+                .then((data) => setAllBets(Array.isArray(data.bets) ? data.bets : []))
+                .catch((error) => console.error(error));
+        };
+
         window.addEventListener('bankroll_changed', handleBankrollChange);
         return () => window.removeEventListener('bankroll_changed', handleBankrollChange);
     }, [router]);

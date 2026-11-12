@@ -3,6 +3,7 @@ import { requireSessionOrLegacyRead } from "@/lib/server/auth";
 import { MongoClient } from "mongodb";
 import fs from "fs";
 import { getPooledMongoClient } from "@/lib/server/mongoClientPool";
+import { channelLedgerBets } from "@/lib/server/channelLedgerBets";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -464,6 +465,15 @@ export async function GET(_request: NextRequest, context: any) {
             return NextResponse.json({ tags }, { headers: { "Cache-Control": "no-store" } });
         }
         if (sp.get("lite") === "1") {
+            const requestedBankroll = (sp.get("bankroll") || "").trim();
+            const channel = requestedBankroll === "onlygoals" || requestedBankroll === "onlycards" ? requestedBankroll : "";
+            if (channel) {
+                const client = await getMongoClient();
+                const ledgerBets = await channelLedgerBets(client.db(getMongoConfig().dbName), channel);
+                if (ledgerBets !== null) {
+                    return NextResponse.json({ bets: ledgerBets }, { headers: { "Cache-Control": "no-store" } });
+                }
+            }
             const result = await liteBets(userId, sp);
             return NextResponse.json(result, { headers: { "Cache-Control": "no-store" } });
         }

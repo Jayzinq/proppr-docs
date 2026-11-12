@@ -243,7 +243,7 @@ export default function TrackDashboardPage() {
             return;
         }
 
-        api.bets.getUserBetsLite(Number(userId)).then((betsData) => {
+        api.bets.getUserBetsLite(Number(userId), bankrollId === 'onlygoals' || bankrollId === 'onlycards' ? bankrollId : undefined).then((betsData) => {
             const userBets = betsData.bets || [];
             
             const sorted = [...userBets].sort((a: any, b: any) => {
@@ -296,6 +296,7 @@ export default function TrackDashboardPage() {
         loadData();
         syncActiveBankroll();
         const handleBankrollChange = () => {
+            loadData();
             syncActiveBankroll();
         };
         window.addEventListener('bankroll_changed', handleBankrollChange);

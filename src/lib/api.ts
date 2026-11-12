@@ -82,8 +82,10 @@ export const api = {
         },
         // All bets, projected to only the fields the analytics/closing/home aggregations read
         // (~3.5x smaller than the full list). Same {bets} shape as getUserBets - drop-in.
-        getUserBetsLite: async (userId: number) => {
-            const res = await authedFetch(`${API_BASE_URL}/bets/user/${userId}?lite=1&t=${Date.now()}`, { cache: 'no-store' });
+        getUserBetsLite: async (userId: number, bankroll?: string) => {
+            const query = new URLSearchParams({ lite: '1', t: String(Date.now()) });
+            if (bankroll === 'onlygoals' || bankroll === 'onlycards') query.set('bankroll', bankroll);
+            const res = await authedFetch(`${API_BASE_URL}/bets/user/${userId}?${query.toString()}`, { cache: 'no-store' });
             if (!res.ok) throw new Error('Failed to fetch bets');
             return res.json();
         },
@@ -129,8 +131,10 @@ export const api = {
         }
     },
     stats: {
-        getUserStats: async (userId: number) => {
-            const res = await authedFetch(`${API_BASE_URL}/stats/user/${userId}?t=${Date.now()}`, { cache: 'no-store' });
+        getUserStats: async (userId: number, bankroll?: string) => {
+            const query = new URLSearchParams({ t: String(Date.now()) });
+            if (bankroll) query.set('bankroll', bankroll);
+            const res = await authedFetch(`${API_BASE_URL}/stats/user/${userId}?${query.toString()}`, { cache: 'no-store' });
             if (!res.ok) throw new Error('Failed to fetch stats');
             return res.json();
         }

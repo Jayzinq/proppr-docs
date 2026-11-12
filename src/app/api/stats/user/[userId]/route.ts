@@ -3,6 +3,7 @@ import { requireSessionOrLegacyRead } from "@/lib/server/auth";
 import { MongoClient } from "mongodb";
 import fs from "fs";
 import { getPooledMongoClient } from "@/lib/server/mongoClientPool";
+import { channelLedgerBets } from "@/lib/server/channelLedgerBets";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -223,6 +224,22 @@ export async function GET(_request: NextRequest, context: any) {
         if (auth instanceof NextResponse) return auth;
 
         const doc = await findTrackedBetsDoc(userId);
+        const requested = _request.nextUrl.searchParams.get("bankroll");
+        if (requested === "onlygoals" || requested === "onlycards") {
+            const client = await getMongoClient();
+            const ledgerBets = await channelLedgerBets(client.db(getMongoConfig().dbName), requested);
+            if (ledgerBets !== null) {
+                return NextResponse.json(
+                    {
+                        ...buildStats(ledgerBets),
+                        bankrolls: Array.isArray(doc?.bankrolls) ? doc.bankrolls : [],
+                        bankroll_scope: requested,
+                        updated_at: new Date().toISOString(),
+                    },
+                    { headers: { "Cache-Control": "no-store" } }
+                );
+            }
+        }
         const bets = Array.isArray(doc?.bets) ? doc.bets : [];
         return NextResponse.json(
             {
